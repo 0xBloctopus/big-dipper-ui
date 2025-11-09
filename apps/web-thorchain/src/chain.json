@@ -222,8 +222,552 @@
       "primaryTokenUnit": "rune",
       "votingPowerTokenUnit": "rune",
       "tokenUnits": {
+        "avax-avax": {
+          "display": "AVAX-AVAX",
+          "exponent": 8
+        },
+        "avax-sol-0xfe6b19286885a4f7f55adad09c3cd1f906d2478f": {
+          "display": "AVAX-SOL",
+          "exponent": 8
+        },
+        "avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "AVAX-USDC",
+          "exponent": 8
+        },
+        "avax-usdt-0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+          "display": "AVAX-USDT",
+          "exponent": 8
+        },
+        "avax/avax": {
+          "display": "AVAX/AVAX",
+          "exponent": 8
+        },
+        "avax/sol-0xfe6b19286885a4f7f55adad09c3cd1f906d2478f": {
+          "display": "AVAX/SOL",
+          "exponent": 8
+        },
+        "avax/usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "AVAX/USDC",
+          "exponent": 8
+        },
+        "avax/usdt-0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+          "display": "AVAX/USDT",
+          "exponent": 8
+        },
+        "base-eth": {
+          "display": "BASE-ETH",
+          "exponent": 8
+        },
+        "base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+          "display": "BASE-USDC",
+          "exponent": 8
+        },
+        "bch-bch": {
+          "display": "BCH-BCH",
+          "exponent": 8
+        },
+        "bch/bch": {
+          "display": "BCH/BCH",
+          "exponent": 8
+        },
+        "bnb/ava-645": {
+          "display": "BNB/AVA-645",
+          "exponent": 8
+        },
+        "bnb/bnb": {
+          "display": "BNB/BNB",
+          "exponent": 8
+        },
+        "bnb/btcb-1de": {
+          "display": "BNB/BTCB-1DE",
+          "exponent": 8
+        },
+        "bnb/busd-bd1": {
+          "display": "BNB/BUSD-BD1",
+          "exponent": 8
+        },
+        "bnb/eth-1c9": {
+          "display": "BNB/ETH-1C9",
+          "exponent": 8
+        },
+        "bnb/twt-8c2": {
+          "display": "BNB/TWT-8C2",
+          "exponent": 8
+        },
+        "bsc-bnb": {
+          "display": "BSC-BNB",
+          "exponent": 8
+        },
+        "bsc-btcb-0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c": {
+          "display": "BSC-BTCB",
+          "exponent": 8
+        },
+        "bsc-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
+          "display": "BSC-BUSD",
+          "exponent": 8
+        },
+        "bsc-eth-0x2170ed0880ac9a755fd29b2688956bd959f933f8": {
+          "display": "BSC-ETH",
+          "exponent": 8
+        },
+        "bsc-twt-0x4b0f1812e5df2a09796481ff14017e6005508003": {
+          "display": "BSC-TWT",
+          "exponent": 8
+        },
+        "bsc-usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+          "display": "BSC-USDC",
+          "exponent": 8
+        },
+        "bsc-usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "BSC-USDT",
+          "exponent": 8
+        },
+        "bsc/bnb": {
+          "display": "BSC/BNB",
+          "exponent": 8
+        },
+        "bsc/usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+          "display": "BSC/USDC",
+          "exponent": 8
+        },
+        "bsc/usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "BSC/USDT",
+          "exponent": 8
+        },
+        "btc-btc": {
+          "display": "BTC-BTC",
+          "exponent": 8
+        },
+        "btc/btc": {
+          "display": "BTC/BTC",
+          "exponent": 8
+        },
+        "doge-doge": {
+          "display": "DOGE-DOGE",
+          "exponent": 8
+        },
+        "doge/doge": {
+          "display": "DOGE/DOGE",
+          "exponent": 8
+        },
+        "eth-aave-0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+          "display": "ETH-AAVE",
+          "exponent": 8
+        },
+        "eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "ETH-DAI",
+          "exponent": 8
+        },
+        "eth-eth": {
+          "display": "ETH-ETH",
+          "exponent": 8
+        },
+        "eth-gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "ETH-GUSD",
+          "exponent": 8
+        },
+        "eth-link-0x514910771af9ca656af840dff83e8264ecf986ca": {
+          "display": "ETH-LINK",
+          "exponent": 8
+        },
+        "eth-tgt-0x108a850856db3f85d0269a2693d896b394c80325": {
+          "display": "ETH-TGT",
+          "exponent": 8
+        },
+        "eth-thor-0xa5f2211b9b8170f694421f2046281775e8468044": {
+          "display": "ETH-THOR",
+          "exponent": 8
+        },
+        "eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "ETH-USDC",
+          "exponent": 8
+        },
+        "eth-usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "ETH-USDP",
+          "exponent": 8
+        },
+        "eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "ETH-USDT",
+          "exponent": 8
+        },
+        "eth-vthor-0x815c23eca83261b6ec689b60cc4a58b54bc24d8d": {
+          "display": "ETH-VTHOR",
+          "exponent": 8
+        },
+        "eth-wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "ETH-WBTC",
+          "exponent": 8
+        },
+        "eth-xrune-0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c": {
+          "display": "ETH-XRUNE",
+          "exponent": 8
+        },
+        "eth/aave-0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+          "display": "ETH/AAVE",
+          "exponent": 8
+        },
+        "eth/dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "ETH/DAI",
+          "exponent": 8
+        },
+        "eth/dpi-0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+          "display": "ETH/DPI",
+          "exponent": 8
+        },
+        "eth/eth": {
+          "display": "ETH/ETH",
+          "exponent": 8
+        },
+        "eth/flip-0x826180541412d574cf1336d22c0c0a287822678a": {
+          "display": "ETH/FLIP",
+          "exponent": 8
+        },
+        "eth/fox-0xc770eefad204b5180df6a14ee197d99d808ee52d": {
+          "display": "ETH/FOX",
+          "exponent": 8
+        },
+        "eth/gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "ETH/GUSD",
+          "exponent": 8
+        },
+        "eth/hegic-0x584bc13c7d411c00c01a62e8019472de68768430": {
+          "display": "ETH/HEGIC",
+          "exponent": 8
+        },
+        "eth/kyl-0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c": {
+          "display": "ETH/KYL",
+          "exponent": 8
+        },
+        "eth/link-0x514910771af9ca656af840dff83e8264ecf986ca": {
+          "display": "ETH/LINK",
+          "exponent": 8
+        },
+        "eth/lusd-0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
+          "display": "ETH/LUSD",
+          "exponent": 8
+        },
+        "eth/snx-0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+          "display": "ETH/SNX",
+          "exponent": 8
+        },
+        "eth/tgt-0x108a850856db3f85d0269a2693d896b394c80325": {
+          "display": "ETH/TGT",
+          "exponent": 8
+        },
+        "eth/thor-0xa5f2211b9b8170f694421f2046281775e8468044": {
+          "display": "ETH/THOR",
+          "exponent": 8
+        },
+        "eth/uos-0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c": {
+          "display": "ETH/UOS",
+          "exponent": 8
+        },
+        "eth/usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "ETH/USDC",
+          "exponent": 8
+        },
+        "eth/usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "ETH/USDP",
+          "exponent": 8
+        },
+        "eth/usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "ETH/USDT",
+          "exponent": 8
+        },
+        "eth/vthor-0x815c23eca83261b6ec689b60cc4a58b54bc24d8d": {
+          "display": "ETH/VTHOR",
+          "exponent": 8
+        },
+        "eth/wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "ETH/WBTC",
+          "exponent": 8
+        },
+        "eth/xdefi-0x72b886d09c117654ab7da13a14d603001de0b777": {
+          "display": "ETH/XDEFI",
+          "exponent": 8
+        },
+        "eth/xrune-0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c": {
+          "display": "ETH/XRUNE",
+          "exponent": 8
+        },
+        "eth/yfi-0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+          "display": "ETH/YFI",
+          "exponent": 8
+        },
+        "gaia-atom": {
+          "display": "GAIA-ATOM",
+          "exponent": 8
+        },
+        "gaia/atom": {
+          "display": "GAIA/ATOM",
+          "exponent": 8
+        },
+        "ltc-ltc": {
+          "display": "LTC-LTC",
+          "exponent": 8
+        },
+        "ltc/ltc": {
+          "display": "LTC/LTC",
+          "exponent": 8
+        },
         "rune": {
           "display": "RUNE",
+          "exponent": 8
+        },
+        "tcy": {
+          "display": "TCY",
+          "exponent": 8
+        },
+        "terra/luna": {
+          "display": "TERRA/LUNA",
+          "exponent": 8
+        },
+        "terra/ust": {
+          "display": "TERRA/UST",
+          "exponent": 8
+        },
+        "thor.auto": {
+          "display": "THOR.AUTO",
+          "exponent": 8
+        },
+        "thor.btc": {
+          "display": "THOR.BTC",
+          "exponent": 8
+        },
+        "thor.eth": {
+          "display": "THOR.ETH",
+          "exponent": 8
+        },
+        "thor.fuzn": {
+          "display": "THOR.FUZN",
+          "exponent": 8
+        },
+        "thor.kuji": {
+          "display": "THOR.KUJI",
+          "exponent": 8
+        },
+        "thor.lqdy": {
+          "display": "THOR.LQDY",
+          "exponent": 8
+        },
+        "thor.lvn": {
+          "display": "THOR.LVN",
+          "exponent": 8
+        },
+        "thor.mimir": {
+          "display": "THOR.MIMIR",
+          "exponent": 8
+        },
+        "thor.nami": {
+          "display": "THOR.NAMI",
+          "exponent": 8
+        },
+        "thor.nstk": {
+          "display": "THOR.NSTK",
+          "exponent": 8
+        },
+        "thor.rkuji": {
+          "display": "THOR.RKUJI",
+          "exponent": 8
+        },
+        "thor.wink": {
+          "display": "THOR.WINK",
+          "exponent": 8
+        },
+        "tor": {
+          "display": "TOR",
+          "exponent": 8
+        },
+        "tron-trx": {
+          "display": "TRON-TRX",
+          "exponent": 8
+        },
+        "tron-usdt-tr7nhqjekqxgtci8q8zy4pl8otszgjlj6t": {
+          "display": "TRON-USDT-TR7NHQJEKQXGTCI8Q8ZY4PL8OTSZGJLJ6T",
+          "exponent": 8
+        },
+        "x/bow-xyk-avax-avax-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-AVAX-AVAX-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-bch-bch-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BCH-BCH-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-bsc-bnb-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BSC-BNB-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-btc-btc-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BTC-BTC-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-doge-doge-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-DOGE-DOGE-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-eth-eth-btc-btc": {
+          "display": "X/BOW-XYK-ETH-ETH-BTC-BTC",
+          "exponent": 8
+        },
+        "x/bow-xyk-eth-eth-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-ETH-ETH-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-gaia-atom-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-GAIA-ATOM-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-ltc-ltc-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-LTC-LTC-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.auto-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.AUTO-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.lqdy-btc-btc": {
+          "display": "X/BOW-XYK-THOR.LQDY-BTC-BTC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.lqdy-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.LQDY-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.nami-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.NAMI-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-x/ruji-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-X/RUJI-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-x/ruji-rune": {
+          "display": "X/BOW-XYK-X/RUJI-RUNE",
+          "exponent": 8
+        },
+        "x/bow-xyk-xrp-xrp-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-XRP-XRP-ETH-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/avax-avax": {
+          "display": "X/GHOST-VAULT/AVAX-AVAX",
+          "exponent": 8
+        },
+        "x/ghost-vault/avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "X/GHOST-VAULT/AVAX-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/base-eth": {
+          "display": "X/GHOST-VAULT/BASE-ETH",
+          "exponent": 8
+        },
+        "x/ghost-vault/base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+          "display": "X/GHOST-VAULT/BASE-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/bch-bch": {
+          "display": "X/GHOST-VAULT/BCH-BCH",
+          "exponent": 8
+        },
+        "x/ghost-vault/bsc-bnb": {
+          "display": "X/GHOST-VAULT/BSC-BNB",
+          "exponent": 8
+        },
+        "x/ghost-vault/bsc-usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "X/GHOST-VAULT/BSC-USDT",
+          "exponent": 8
+        },
+        "x/ghost-vault/btc-btc": {
+          "display": "X/GHOST-VAULT/BTC-BTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/doge-doge": {
+          "display": "X/GHOST-VAULT/DOGE-DOGE",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "X/GHOST-VAULT/ETH-DAI",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-eth": {
+          "display": "X/GHOST-VAULT/ETH-ETH",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "X/GHOST-VAULT/ETH-GUSD",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/GHOST-VAULT/ETH-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "X/GHOST-VAULT/ETH-USDP",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "X/GHOST-VAULT/ETH-USDT",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "X/GHOST-VAULT/ETH-WBTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/gaia-atom": {
+          "display": "X/GHOST-VAULT/GAIA-ATOM",
+          "exponent": 8
+        },
+        "x/ghost-vault/ltc-ltc": {
+          "display": "X/GHOST-VAULT/LTC-LTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/rune": {
+          "display": "X/GHOST-VAULT/RUNE",
+          "exponent": 8
+        },
+        "x/ghost-vault/tcy": {
+          "display": "X/GHOST-VAULT/TCY",
+          "exponent": 8
+        },
+        "x/ghost-vault/x/ruji": {
+          "display": "X/GHOST-VAULT/X/RUJI",
+          "exponent": 8
+        },
+        "x/ghost-vault/xrp-xrp": {
+          "display": "X/GHOST-VAULT/XRP-XRP",
+          "exponent": 8
+        },
+        "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt": {
+          "display": "X/NAMI-INDEX-FIXED-THOR1YQF5SPDV8C4088ZMVQSG32EQ63FZEPSJVNTAHDK0EK0YJNKT3QDQFTP3LC-RCPT",
+          "exponent": 8
+        },
+        "x/nami-index-nav-thor1h0hr0rm3dawkedh44hlrmgvya6plsryehcr46yda2vj0wfwgq5xqrs86px-rcpt": {
+          "display": "X/NAMI-INDEX-NAV-THOR1H0HR0RM3DAWKEDH44HLRMGVYA6PLSRYEHCR46YDA2VJ0WFWGQ5XQRS86PX-RCPT",
+          "exponent": 8
+        },
+        "x/nami-index-nav-thor1mlphkryw5g54yfkrp6xpqzlpv4f8wh6hyw27yyg4z2els8a9gxpqhfhekt-rcpt": {
+          "display": "X/NAMI-INDEX-NAV-THOR1MLPHKRYW5G54YFKRP6XPQZLPV4F8WH6HYW27YYG4Z2ELS8A9GXPQHFHEKT-RCPT",
+          "exponent": 8
+        },
+        "x/ruji": {
+          "display": "X/RUJI",
+          "exponent": 8
+        },
+        "x/staking-tcy": {
+          "display": "X/STAKING-TCY",
+          "exponent": 8
+        },
+        "x/staking-thor.nami": {
+          "display": "X/STAKING-THOR.NAMI",
+          "exponent": 8
+        },
+        "x/staking-x/ruji": {
+          "display": "X/STAKING-X/RUJI",
+          "exponent": 8
+        },
+        "xrp-xrp": {
+          "display": "XRP-XRP",
           "exponent": 8
         }
       },
@@ -252,8 +796,552 @@
       "primaryTokenUnit": "rune",
       "votingPowerTokenUnit": "rune",
       "tokenUnits": {
+        "avax-avax": {
+          "display": "AVAX-AVAX",
+          "exponent": 8
+        },
+        "avax-sol-0xfe6b19286885a4f7f55adad09c3cd1f906d2478f": {
+          "display": "AVAX-SOL",
+          "exponent": 8
+        },
+        "avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "AVAX-USDC",
+          "exponent": 8
+        },
+        "avax-usdt-0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+          "display": "AVAX-USDT",
+          "exponent": 8
+        },
+        "avax/avax": {
+          "display": "AVAX/AVAX",
+          "exponent": 8
+        },
+        "avax/sol-0xfe6b19286885a4f7f55adad09c3cd1f906d2478f": {
+          "display": "AVAX/SOL",
+          "exponent": 8
+        },
+        "avax/usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "AVAX/USDC",
+          "exponent": 8
+        },
+        "avax/usdt-0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7": {
+          "display": "AVAX/USDT",
+          "exponent": 8
+        },
+        "base-eth": {
+          "display": "BASE-ETH",
+          "exponent": 8
+        },
+        "base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+          "display": "BASE-USDC",
+          "exponent": 8
+        },
+        "bch-bch": {
+          "display": "BCH-BCH",
+          "exponent": 8
+        },
+        "bch/bch": {
+          "display": "BCH/BCH",
+          "exponent": 8
+        },
+        "bnb/ava-645": {
+          "display": "BNB/AVA-645",
+          "exponent": 8
+        },
+        "bnb/bnb": {
+          "display": "BNB/BNB",
+          "exponent": 8
+        },
+        "bnb/btcb-1de": {
+          "display": "BNB/BTCB-1DE",
+          "exponent": 8
+        },
+        "bnb/busd-bd1": {
+          "display": "BNB/BUSD-BD1",
+          "exponent": 8
+        },
+        "bnb/eth-1c9": {
+          "display": "BNB/ETH-1C9",
+          "exponent": 8
+        },
+        "bnb/twt-8c2": {
+          "display": "BNB/TWT-8C2",
+          "exponent": 8
+        },
+        "bsc-bnb": {
+          "display": "BSC-BNB",
+          "exponent": 8
+        },
+        "bsc-btcb-0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c": {
+          "display": "BSC-BTCB",
+          "exponent": 8
+        },
+        "bsc-busd-0xe9e7cea3dedca5984780bafc599bd69add087d56": {
+          "display": "BSC-BUSD",
+          "exponent": 8
+        },
+        "bsc-eth-0x2170ed0880ac9a755fd29b2688956bd959f933f8": {
+          "display": "BSC-ETH",
+          "exponent": 8
+        },
+        "bsc-twt-0x4b0f1812e5df2a09796481ff14017e6005508003": {
+          "display": "BSC-TWT",
+          "exponent": 8
+        },
+        "bsc-usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+          "display": "BSC-USDC",
+          "exponent": 8
+        },
+        "bsc-usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "BSC-USDT",
+          "exponent": 8
+        },
+        "bsc/bnb": {
+          "display": "BSC/BNB",
+          "exponent": 8
+        },
+        "bsc/usdc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d": {
+          "display": "BSC/USDC",
+          "exponent": 8
+        },
+        "bsc/usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "BSC/USDT",
+          "exponent": 8
+        },
+        "btc-btc": {
+          "display": "BTC-BTC",
+          "exponent": 8
+        },
+        "btc/btc": {
+          "display": "BTC/BTC",
+          "exponent": 8
+        },
+        "doge-doge": {
+          "display": "DOGE-DOGE",
+          "exponent": 8
+        },
+        "doge/doge": {
+          "display": "DOGE/DOGE",
+          "exponent": 8
+        },
+        "eth-aave-0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+          "display": "ETH-AAVE",
+          "exponent": 8
+        },
+        "eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "ETH-DAI",
+          "exponent": 8
+        },
+        "eth-eth": {
+          "display": "ETH-ETH",
+          "exponent": 8
+        },
+        "eth-gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "ETH-GUSD",
+          "exponent": 8
+        },
+        "eth-link-0x514910771af9ca656af840dff83e8264ecf986ca": {
+          "display": "ETH-LINK",
+          "exponent": 8
+        },
+        "eth-tgt-0x108a850856db3f85d0269a2693d896b394c80325": {
+          "display": "ETH-TGT",
+          "exponent": 8
+        },
+        "eth-thor-0xa5f2211b9b8170f694421f2046281775e8468044": {
+          "display": "ETH-THOR",
+          "exponent": 8
+        },
+        "eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "ETH-USDC",
+          "exponent": 8
+        },
+        "eth-usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "ETH-USDP",
+          "exponent": 8
+        },
+        "eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "ETH-USDT",
+          "exponent": 8
+        },
+        "eth-vthor-0x815c23eca83261b6ec689b60cc4a58b54bc24d8d": {
+          "display": "ETH-VTHOR",
+          "exponent": 8
+        },
+        "eth-wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "ETH-WBTC",
+          "exponent": 8
+        },
+        "eth-xrune-0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c": {
+          "display": "ETH-XRUNE",
+          "exponent": 8
+        },
+        "eth/aave-0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+          "display": "ETH/AAVE",
+          "exponent": 8
+        },
+        "eth/dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "ETH/DAI",
+          "exponent": 8
+        },
+        "eth/dpi-0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b": {
+          "display": "ETH/DPI",
+          "exponent": 8
+        },
+        "eth/eth": {
+          "display": "ETH/ETH",
+          "exponent": 8
+        },
+        "eth/flip-0x826180541412d574cf1336d22c0c0a287822678a": {
+          "display": "ETH/FLIP",
+          "exponent": 8
+        },
+        "eth/fox-0xc770eefad204b5180df6a14ee197d99d808ee52d": {
+          "display": "ETH/FOX",
+          "exponent": 8
+        },
+        "eth/gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "ETH/GUSD",
+          "exponent": 8
+        },
+        "eth/hegic-0x584bc13c7d411c00c01a62e8019472de68768430": {
+          "display": "ETH/HEGIC",
+          "exponent": 8
+        },
+        "eth/kyl-0x67b6d479c7bb412c54e03dca8e1bc6740ce6b99c": {
+          "display": "ETH/KYL",
+          "exponent": 8
+        },
+        "eth/link-0x514910771af9ca656af840dff83e8264ecf986ca": {
+          "display": "ETH/LINK",
+          "exponent": 8
+        },
+        "eth/lusd-0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
+          "display": "ETH/LUSD",
+          "exponent": 8
+        },
+        "eth/snx-0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
+          "display": "ETH/SNX",
+          "exponent": 8
+        },
+        "eth/tgt-0x108a850856db3f85d0269a2693d896b394c80325": {
+          "display": "ETH/TGT",
+          "exponent": 8
+        },
+        "eth/thor-0xa5f2211b9b8170f694421f2046281775e8468044": {
+          "display": "ETH/THOR",
+          "exponent": 8
+        },
+        "eth/uos-0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c": {
+          "display": "ETH/UOS",
+          "exponent": 8
+        },
+        "eth/usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "ETH/USDC",
+          "exponent": 8
+        },
+        "eth/usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "ETH/USDP",
+          "exponent": 8
+        },
+        "eth/usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "ETH/USDT",
+          "exponent": 8
+        },
+        "eth/vthor-0x815c23eca83261b6ec689b60cc4a58b54bc24d8d": {
+          "display": "ETH/VTHOR",
+          "exponent": 8
+        },
+        "eth/wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "ETH/WBTC",
+          "exponent": 8
+        },
+        "eth/xdefi-0x72b886d09c117654ab7da13a14d603001de0b777": {
+          "display": "ETH/XDEFI",
+          "exponent": 8
+        },
+        "eth/xrune-0x69fa0fee221ad11012bab0fdb45d444d3d2ce71c": {
+          "display": "ETH/XRUNE",
+          "exponent": 8
+        },
+        "eth/yfi-0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
+          "display": "ETH/YFI",
+          "exponent": 8
+        },
+        "gaia-atom": {
+          "display": "GAIA-ATOM",
+          "exponent": 8
+        },
+        "gaia/atom": {
+          "display": "GAIA/ATOM",
+          "exponent": 8
+        },
+        "ltc-ltc": {
+          "display": "LTC-LTC",
+          "exponent": 8
+        },
+        "ltc/ltc": {
+          "display": "LTC/LTC",
+          "exponent": 8
+        },
         "rune": {
           "display": "RUNE",
+          "exponent": 8
+        },
+        "tcy": {
+          "display": "TCY",
+          "exponent": 8
+        },
+        "terra/luna": {
+          "display": "TERRA/LUNA",
+          "exponent": 8
+        },
+        "terra/ust": {
+          "display": "TERRA/UST",
+          "exponent": 8
+        },
+        "thor.auto": {
+          "display": "THOR.AUTO",
+          "exponent": 8
+        },
+        "thor.btc": {
+          "display": "THOR.BTC",
+          "exponent": 8
+        },
+        "thor.eth": {
+          "display": "THOR.ETH",
+          "exponent": 8
+        },
+        "thor.fuzn": {
+          "display": "THOR.FUZN",
+          "exponent": 8
+        },
+        "thor.kuji": {
+          "display": "THOR.KUJI",
+          "exponent": 8
+        },
+        "thor.lqdy": {
+          "display": "THOR.LQDY",
+          "exponent": 8
+        },
+        "thor.lvn": {
+          "display": "THOR.LVN",
+          "exponent": 8
+        },
+        "thor.mimir": {
+          "display": "THOR.MIMIR",
+          "exponent": 8
+        },
+        "thor.nami": {
+          "display": "THOR.NAMI",
+          "exponent": 8
+        },
+        "thor.nstk": {
+          "display": "THOR.NSTK",
+          "exponent": 8
+        },
+        "thor.rkuji": {
+          "display": "THOR.RKUJI",
+          "exponent": 8
+        },
+        "thor.wink": {
+          "display": "THOR.WINK",
+          "exponent": 8
+        },
+        "tor": {
+          "display": "TOR",
+          "exponent": 8
+        },
+        "tron-trx": {
+          "display": "TRON-TRX",
+          "exponent": 8
+        },
+        "tron-usdt-tr7nhqjekqxgtci8q8zy4pl8otszgjlj6t": {
+          "display": "TRON-USDT-TR7NHQJEKQXGTCI8Q8ZY4PL8OTSZGJLJ6T",
+          "exponent": 8
+        },
+        "x/bow-xyk-avax-avax-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-AVAX-AVAX-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-bch-bch-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BCH-BCH-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-bsc-bnb-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BSC-BNB-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-btc-btc-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-BTC-BTC-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-doge-doge-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-DOGE-DOGE-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-eth-eth-btc-btc": {
+          "display": "X/BOW-XYK-ETH-ETH-BTC-BTC",
+          "exponent": 8
+        },
+        "x/bow-xyk-eth-eth-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-ETH-ETH-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-gaia-atom-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-GAIA-ATOM-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-ltc-ltc-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-LTC-LTC-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.auto-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.AUTO-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.lqdy-btc-btc": {
+          "display": "X/BOW-XYK-THOR.LQDY-BTC-BTC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.lqdy-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.LQDY-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-thor.nami-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-THOR.NAMI-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-x/ruji-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-X/RUJI-ETH-USDC",
+          "exponent": 8
+        },
+        "x/bow-xyk-x/ruji-rune": {
+          "display": "X/BOW-XYK-X/RUJI-RUNE",
+          "exponent": 8
+        },
+        "x/bow-xyk-xrp-xrp-eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/BOW-XYK-XRP-XRP-ETH-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/avax-avax": {
+          "display": "X/GHOST-VAULT/AVAX-AVAX",
+          "exponent": 8
+        },
+        "x/ghost-vault/avax-usdc-0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e": {
+          "display": "X/GHOST-VAULT/AVAX-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/base-eth": {
+          "display": "X/GHOST-VAULT/BASE-ETH",
+          "exponent": 8
+        },
+        "x/ghost-vault/base-usdc-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+          "display": "X/GHOST-VAULT/BASE-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/bch-bch": {
+          "display": "X/GHOST-VAULT/BCH-BCH",
+          "exponent": 8
+        },
+        "x/ghost-vault/bsc-bnb": {
+          "display": "X/GHOST-VAULT/BSC-BNB",
+          "exponent": 8
+        },
+        "x/ghost-vault/bsc-usdt-0x55d398326f99059ff775485246999027b3197955": {
+          "display": "X/GHOST-VAULT/BSC-USDT",
+          "exponent": 8
+        },
+        "x/ghost-vault/btc-btc": {
+          "display": "X/GHOST-VAULT/BTC-BTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/doge-doge": {
+          "display": "X/GHOST-VAULT/DOGE-DOGE",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-dai-0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "display": "X/GHOST-VAULT/ETH-DAI",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-eth": {
+          "display": "X/GHOST-VAULT/ETH-ETH",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-gusd-0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
+          "display": "X/GHOST-VAULT/ETH-GUSD",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdc-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+          "display": "X/GHOST-VAULT/ETH-USDC",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdp-0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
+          "display": "X/GHOST-VAULT/ETH-USDP",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-usdt-0xdac17f958d2ee523a2206206994597c13d831ec7": {
+          "display": "X/GHOST-VAULT/ETH-USDT",
+          "exponent": 8
+        },
+        "x/ghost-vault/eth-wbtc-0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+          "display": "X/GHOST-VAULT/ETH-WBTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/gaia-atom": {
+          "display": "X/GHOST-VAULT/GAIA-ATOM",
+          "exponent": 8
+        },
+        "x/ghost-vault/ltc-ltc": {
+          "display": "X/GHOST-VAULT/LTC-LTC",
+          "exponent": 8
+        },
+        "x/ghost-vault/rune": {
+          "display": "X/GHOST-VAULT/RUNE",
+          "exponent": 8
+        },
+        "x/ghost-vault/tcy": {
+          "display": "X/GHOST-VAULT/TCY",
+          "exponent": 8
+        },
+        "x/ghost-vault/x/ruji": {
+          "display": "X/GHOST-VAULT/X/RUJI",
+          "exponent": 8
+        },
+        "x/ghost-vault/xrp-xrp": {
+          "display": "X/GHOST-VAULT/XRP-XRP",
+          "exponent": 8
+        },
+        "x/nami-index-fixed-thor1yqf5spdv8c4088zmvqsg32eq63fzepsjvntahdk0ek0yjnkt3qdqftp3lc-rcpt": {
+          "display": "X/NAMI-INDEX-FIXED-THOR1YQF5SPDV8C4088ZMVQSG32EQ63FZEPSJVNTAHDK0EK0YJNKT3QDQFTP3LC-RCPT",
+          "exponent": 8
+        },
+        "x/nami-index-nav-thor1h0hr0rm3dawkedh44hlrmgvya6plsryehcr46yda2vj0wfwgq5xqrs86px-rcpt": {
+          "display": "X/NAMI-INDEX-NAV-THOR1H0HR0RM3DAWKEDH44HLRMGVYA6PLSRYEHCR46YDA2VJ0WFWGQ5XQRS86PX-RCPT",
+          "exponent": 8
+        },
+        "x/nami-index-nav-thor1mlphkryw5g54yfkrp6xpqzlpv4f8wh6hyw27yyg4z2els8a9gxpqhfhekt-rcpt": {
+          "display": "X/NAMI-INDEX-NAV-THOR1MLPHKRYW5G54YFKRP6XPQZLPV4F8WH6HYW27YYG4Z2ELS8A9GXPQHFHEKT-RCPT",
+          "exponent": 8
+        },
+        "x/ruji": {
+          "display": "X/RUJI",
+          "exponent": 8
+        },
+        "x/staking-tcy": {
+          "display": "X/STAKING-TCY",
+          "exponent": 8
+        },
+        "x/staking-thor.nami": {
+          "display": "X/STAKING-THOR.NAMI",
+          "exponent": 8
+        },
+        "x/staking-x/ruji": {
+          "display": "X/STAKING-X/RUJI",
+          "exponent": 8
+        },
+        "xrp-xrp": {
+          "display": "XRP-XRP",
           "exponent": 8
         }
       },
